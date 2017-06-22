@@ -1,0 +1,26 @@
+# Jekyll workshop-template
+# based on minima theme https://github.com/jekyll/minima
+
+# Site settings
+title: workshop-template
+description: > 
+  Create a workshop website quick and easy! 
+keywords: "workshops, websites, gh-pages"
+
+# author settings for cc-by
+author: evan will
+github_username: evanwill
+pub_year: 2017
+
+# add the full url for the repository's gh-pages
+url: "https://evanwill.github.io/workshop-template" 
+
+# add google analytics if desired
+google_analytics: 
+
+# Build settings
+markdown: kramdown
+
+# notes: 
+# fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+# pages with nav: true in front matter will be in header nav
