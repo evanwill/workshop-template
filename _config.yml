@@ -11,6 +11,7 @@ keywords: "workshops, websites, gh-pages"
 author: evan will
 github_username: evanwill
 pub_year: 2017
+repo: "https://github.com/evanwill/workshop-template"
 
 # add the full url for the repository's gh-pages
 url: "https://evanwill.github.io/workshop-template" 
