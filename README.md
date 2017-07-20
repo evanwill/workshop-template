@@ -12,7 +12,12 @@ Rather than making slides for a workshop, why not make a website?
 It's easier to write, access, share, and reuse. 
 GitHub and gh-pages makes this super easy.
 
+It is a better Open Educational Resource since anyone can fork and adapt!
+
 ## Details
+
+This repo is the demo skeleton. 
+Fork it and add your data to the `_config.yml` to get started.
 
 To include pages in the nav, add the yml `nav: true`.
 
@@ -23,3 +28,13 @@ Tweak `$border-color` in `main.scss` to give tiny splash of color on header / fo
 
 Repository does not include a Gemfile because it is a very simple project. 
 Originally built using Ruby 2.3+ and Jekyll 3.4+.
+
+## Demos
+
+My workshop sites using this template:
+
+- [get-git](https://uidaholib.github.io/get-git/)
+- [hello-arduino](https://evanwill.github.io/hello-arduino/)
+- [clean-your-data](https://evanwill.github.io/clean-your-data/)
+- [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
+- [Make @ the MILL](https://uidaholib.github.io/make-at-the-mill/)
