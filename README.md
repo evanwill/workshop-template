@@ -6,6 +6,14 @@ Designed for gh-pages.
 Works best for about 5 pages of instructions, plus index, all written in Markdown. 
 The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
 
+## Why?
+
+Rather than making slides for a workshop, why not make a website? 
+It's easier to write, access, share, and reuse. 
+GitHub and gh-pages makes this super easy.
+
+## Details
+
 To include pages in the nav, add the yml `nav: true`.
 
 Put images in the `images` directory. 
