@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% include figure.html file="intro.png" alt="intro image here" width="50%" %}
+{% include figure.html file="College_of_Education_University_of_Idaho_Workshop_scene_2273.jpg" alt="intro image here" width="75%" %}
 
 # Workshop Template!
 
