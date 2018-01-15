@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Resources
 nav: true
 ---
@@ -13,3 +12,5 @@ Workshop sites using this template:
 - [clean-your-data](https://evanwill.github.io/clean-your-data/)
 - [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
 - [Make @ the MILL](https://uidaholib.github.io/make-at-the-mill/)
+
+The [Readme]({{ "README.md" | absolute_url }}) has some documentation.

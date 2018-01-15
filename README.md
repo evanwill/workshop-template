@@ -17,9 +17,12 @@ It is a better Open Educational Resource since anyone can fork and adapt!
 ## Details
 
 This repo is the demo skeleton. 
-Fork it and add your data to the `_config.yml` to get started.
+Fork/import it and edit the `_config.yml` to get started.
 
-To include pages in the nav, add the yml `nav: true`.
+To include pages in the nav, add `nav: true` to the yml front matter.
+The `title:` value will appear in the Nav, sorted in the order of file names (thus, for simplicity use leading numbers for the lesson pages). 
+The default layout does not add `title` to the page, so it can be a short for the nav. 
+Add a title in the Markdown content.
 
 Put images in the `images` directory. 
 For centered figures, use the `figure.html` include: `{% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}`.
@@ -27,7 +30,7 @@ For centered figures, use the `figure.html` include: `{% include figure.html fil
 Tweak `$border-color` in `main.scss` to give tiny splash of color on header / footer borders.
 
 Repository does not include a Gemfile because it is a very simple project. 
-Originally built using Ruby 2.3+ and Jekyll 3.4+.
+Originally built using Ruby 2.3+ and Jekyll 3.4+; most recently used Jekyll 3.7.0.
 
 ## Demos
 

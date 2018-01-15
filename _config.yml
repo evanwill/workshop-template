@@ -1,6 +1,11 @@
 # Jekyll workshop-template https://github.com/evanwill/workshop-template
 # based on minima theme https://github.com/jekyll/minima
 
+# Notes: 
+# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+# - pages with "nav: true" in front matter will be in header nav
+# - use environment variable on build command to include analytics: JEKYLL_ENV=production jekyll build
+
 # Site settings
 title: workshop-template
 description: > 
@@ -9,23 +14,30 @@ keywords: "workshops, websites, gh-pages"
 
 # author settings for cc-by
 author: evan will
+pub_year: 2017
 github_username: evanwill
 twitter_username: EvanPeterWill
-pub_year: 2017
 
 # add the full url for the github repository
 repo: "https://github.com/evanwill/workshop-template"
 
-# add the full url for the repository's gh-pages
-# hint: it's in the form https://username.github.io/repo-name
-url: "https://evanwill.github.io/workshop-template" 
+# site urls
+# add the url for the domain,
+# on gh-pages: https://username.github.io 
+url: https://evanwill.github.io
+# add subsection of the domain,
+# on gh-pages this is the name of the repository
+baseurl: /workshop-template
 
-# add google analytics if desired (and uncomment in _includes/head.html)
+# add google analytics if desired (and use environment variable on build command)
 google_analytics: 
+
+# defaults (to simplify front matter)
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 # Build settings
 markdown: kramdown
-
-# Notes: 
-# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
-# - pages with "nav: true" in front matter will be in header nav

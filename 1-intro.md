@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Intro
 nav: true
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Home
 ---
 
 {% include figure.html file="College_of_Education_University_of_Idaho_Workshop_scene_2273.jpg" alt="intro image here" width="75%" %}
@@ -18,7 +18,7 @@ Fun!
 ## Contents:
 
 {% for lesson in site.pages %}
-{% if lesson.nav == true %}- [{{ lesson.title }}]({{ lesson.url | prepend: site.url }}){% endif %}
+{% if lesson.nav == true %}- [{{ lesson.title }}]({{ lesson.url | absolute_url }}){% endif %}
 {% endfor %}
 </div>
 
