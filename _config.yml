@@ -1,16 +1,17 @@
-# Jekyll workshop-template https://github.com/evanwill/workshop-template
+# Jekyll workshop-template evanwill
+# https://github.com/evanwill/workshop-template
 # based on minima theme https://github.com/jekyll/minima
 
 # Notes: 
-# - fig include, {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
 # - pages with "nav: true" in front matter will be in header nav
+# - figure include for centered images: {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
 # - use environment variable on build command to include analytics: JEKYLL_ENV=production jekyll build
 
 # Site settings
 title: workshop-template
-description: > 
-  Create a workshop website quick and easy! 
-keywords: "workshops, websites, gh-pages"
+# description and keywords for meta tags
+description: "Create a workshop website quick and easy!"
+keywords: "workshops, websites, gh-pages, jekyll"
 
 # author settings for cc-by
 author: evan will
@@ -29,7 +30,9 @@ url: https://evanwill.github.io
 # on gh-pages this is the name of the repository
 baseurl: /workshop-template
 
-# add google analytics if desired (and use environment variable on build command)
+# add google analytics if desired (optional)
+# if blank, it will be ignored
+# use JEKYLL_ENV=production on build command
 google_analytics: 
 
 # defaults (to simplify front matter)
