@@ -4,8 +4,7 @@
 
 # Notes: 
 # - pages with "nav: true" in front matter will be in header nav
-# - figure include for centered images: {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
-# - use environment variable on build command to include analytics: JEKYLL_ENV=production jekyll build
+# - figure include for centered images, put file in images directory and use: {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
 
 # Site settings
 title: workshop-template

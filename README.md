@@ -48,6 +48,12 @@ Basic style customization:
 - Give a tiny splash of color on the header and footer borders by tweaking the `$border-color` 
 - `$brand-color` colors links
 
+Using optional google analytics:
+
+- add your analytics id to `_config.yml` in `google_analytics:` 
+- if `google_analytics:` is blank, the ga code will not added
+- analytics code will only be added when using "production" environment. This happens automatically on gh-pages. To build locally, use `JEKYLL_ENV=production jekyll build`
+
 > Repository does not include a Gemfile because it is a very simple project. 
 > Originally built using Ruby 2.3+ and Jekyll 3.4+; most recently used Jekyll 3.7.0.
 
