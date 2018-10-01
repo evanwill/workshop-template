@@ -46,7 +46,7 @@ Basic style customization:
 
 - the `main.scss` in the `css` folder exposes variables that can customize the basic style of website.
 - Give a tiny splash of color on the header and footer borders by tweaking the `$border-color` 
-- `$brand-color` colors links
+- `$link-color` colors links
 
 Using optional google analytics:
 
