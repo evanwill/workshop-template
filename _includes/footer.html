@@ -4,7 +4,7 @@
     <div class="footer-nav">
         {% for lesson in site.pages %}
           {% if lesson.nav == true %}
-          <a class="page-link" href="{{ lesson.url | absolute_url }}">{{ lesson.title | escape }}</a>
+          <a class="page-link{% if page.url == lesson.url %} active{% endif %}" href="{{ lesson.url | absolute_url }}">{{ lesson.title | escape }}</a>
           {% endif %}
         {% endfor %}
     </div>

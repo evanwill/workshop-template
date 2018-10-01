@@ -4,3 +4,7 @@
     border: solid 1px $grey-color-light;
     border-radius: 5px;
 }
+.site-nav .active, .site-footer .active {
+    text-decoration: underline;
+    color: $active-color;
+}
