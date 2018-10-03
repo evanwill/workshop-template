@@ -2,13 +2,13 @@
 title: Home
 ---
 
-{% include figure.html file="College_of_Education_University_of_Idaho_Workshop_scene_2273.jpg" alt="intro image here" width="75%" %}
-
 # Workshop Template!
+
+{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
 > hosted by [University of Idaho Library](http://www.lib.uidaho.edu/) {{ site.pub_year }}
 
-Workshop abstract here.
+Add a workshop abstract here.
 
 Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
 Host it for free on GitHub with gh-pages, and share!
