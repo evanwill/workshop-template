@@ -1,9 +1,24 @@
 ---
-title: Config
+title: Start
 nav: true
 ---
 
-# Part One: Configure
+# Get Started
+
+The `workshop-template` [repository](https://github.com/evanwill/workshop-template) is a skeleton project. 
+This [site](https://evanwill.github.io/workshop-template/) demonstrates the output on gh-pages, and the content pages serve as examples.
+
+Overview:
+
+1. Fork or import the [repository](https://github.com/evanwill/workshop-template) on GitHub.
+2. Clone to your local machine, or work on the GitHub web interface to edit files.
+3. Edit the `_config.yml` with your info.
+4. Edit the content pages in markdown.
+5. Add images to the "images" folder.
+5. Push to GitHub (or commit on the web interface).
+6. In your repo's settings, activate gh-pages, using master branch.
+
+## Config
 
 Edit the `_config.yml` to get your workshop website set up.
 

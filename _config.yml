@@ -4,29 +4,29 @@
 
 # Notes: 
 # - pages with "nav: true" in front matter will be in header nav
-# - figure include for centered images, put file in images directory and use: {% include figure.html file="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
+# - figure include for centered images, put file in images directory and use: {% include figure.html img="my-cat.jpg" alt="cat" caption="My cat" width="50%" %}
 
 # Site settings
+# title appears in the header
 title: workshop-template
 # description and keywords for meta tags
-description: "Create a workshop website quick and easy!"
-keywords: "workshops, websites, gh-pages, jekyll"
+description: "Create an OER workshop website quick and easy!"
+keywords: "workshops, OER, Open Education, websites, gh-pages, jekyll"
 
-# author settings for cc-by
+# author settings for cc-by, appears in the footer
 author: evan will
 pub_year: 2018
 github_username: evanwill
-twitter_username: EvanPeterWill
 
 # add the full url for the github repository
 repo: "https://github.com/evanwill/workshop-template"
 
 # site urls
 # add the url for the domain,
-# on gh-pages: https://username.github.io 
+# on gh-pages follow the pattern: https://username.github.io 
 url: https://evanwill.github.io
 # add subsection of the domain,
-# on gh-pages this is the name of the repository
+# on gh-pages this is a / followed by the name of the repository
 baseurl: /workshop-template
 
 # add google analytics if desired (optional)

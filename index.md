@@ -6,9 +6,9 @@ title: Home
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
-> hosted by [University of Idaho Library](http://www.lib.uidaho.edu/) {{ site.pub_year }}
+A minimal Jekyll theme for creating workshop websites.
 
-Add a workshop abstract here.
+*Add your workshop abstract here!*
 
 Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
 Host it for free on GitHub with gh-pages, and share!
@@ -22,6 +22,8 @@ Fun!
 {% endfor %}
 </div>
 
+Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
+ 
 > built using [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/)
 >
 > images and content: cc-by-sa <a href="https://github.com/{{ site.github_username }}">{{ site.author }}</a> {{ site.pub_year}} (get [source code]({{ site.repo }})).
