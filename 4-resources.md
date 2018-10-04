@@ -26,8 +26,11 @@ To learn more check out Hellow World on [GitHub Guides](https://guides.github.co
 
 ### Markdown
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a standard to [simplify writing](https://evanwill.github.io/_drafts/notes/writing-markdown.html) content for the web. 
+[Markdown](https://daringfireball.net/projects/markdown/) is a standard to simplify writing content for the web. 
 [GitHub markdown flavor](https://help.github.com/articles/basic-writing-and-formatting-syntax/) can be used any where on GitHub and in Jekyll.
+
+- [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html)
+- GitHub Guide [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ### YAML
 
@@ -48,4 +51,3 @@ Liquid statements are enclosed by {% raw %}`{%  %}`{% endraw %} and variables in
 All normal CSS is valid SCSS, but Sass adds many powerful functions and programatic features. 
 Writing SCSS is often easier and more sensible, for example by supporting nesting, variables, and operators. 
 Jekyll lets you write SASS in modular chucks called partials, in the `_sass` directory, that will be combined and compiled into normal CSS files when the site is built.
-

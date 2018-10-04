@@ -55,7 +55,7 @@ Using optional google analytics:
 - analytics code will only be added when using "production" environment. This happens automatically on gh-pages. To build locally, use `JEKYLL_ENV=production jekyll build`
 
 > Repository does not include a Gemfile because it is a very simple project. 
-> Originally built using Ruby 2.3+ and Jekyll 3.4+; most recently used Jekyll 3.7.0.
+> Originally built using Ruby 2.3+ and Jekyll 3.4+; most recently used Jekyll 3.8.1.
 
 ## Demos
 
