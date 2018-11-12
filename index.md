@@ -14,6 +14,8 @@ Learn how to create a super quick easy website for a workshop by writing a few m
 Host it for free on GitHub with gh-pages, and share!
 Fun!
 
+*See also:* [workshop-template-b](https://evanwill.github.io/workshop-template-b/), Bootstrap version.
+
 <div class="toc" markdown="1">
 ## Contents:
 
