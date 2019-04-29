@@ -5,6 +5,8 @@ A Jekyll template for a simple workshop website, based on the [Minima theme](htt
 Works best for about 5 pages of instructions, plus index, all written in Markdown. 
 The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
 
+> p.s. this is the minimal template--for a slightly more refined look, try the Bootstrap version [workshop-template-b](https://github.com/evanwill/workshop-template-b)
+
 ## Why?
 
 Rather than making slides for a workshop, why not make a website? 
