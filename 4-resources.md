@@ -5,7 +5,7 @@ nav: true
 
 # Resources
 
-To learn how to use `workshop-template`, the [Readme]({{ "README.md" | absolute_url }}) and content pages have some documentation.
+To learn how to use `workshop-template`, the [Readme](https://github.com/evanwill/workshop-template/blob/main/README.md) and content pages have some documentation.
 
 Other workshop sites using this template:
 

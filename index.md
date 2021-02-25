@@ -20,7 +20,7 @@ Fun!
 ## Contents:
 
 {% for lesson in site.pages %}
-{% if lesson.nav == true %}- [{{ lesson.title }}]({{ lesson.url | absolute_url }}){% endif %}
+{% if lesson.nav == true %}- [{{ lesson.title }}]({{ lesson.url | relative_url }}){% endif %}
 {% endfor %}
 </div>
 
