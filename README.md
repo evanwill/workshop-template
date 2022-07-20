@@ -52,7 +52,7 @@ Basic style customization:
 
 Using optional google analytics:
 
-- add your analytics id to `_config.yml` in `google_analytics:` 
+- add your analytics id to `_config.yml` in `google-analytics-id:` 
 - if `google-analytics-id:` is blank, the ga code will not added
 - analytics code will only be added when using "production" environment. This happens automatically on gh-pages. To build locally, use `JEKYLL_ENV=production jekyll build`
 
