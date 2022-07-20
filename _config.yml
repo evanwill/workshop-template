@@ -32,7 +32,7 @@ baseurl: /workshop-template
 # add google analytics if desired (optional)
 # if blank, it will be ignored
 # use JEKYLL_ENV=production on build command
-google_analytics: 
+google-analytics-id: 
 
 # defaults (to simplify front matter)
 defaults:
