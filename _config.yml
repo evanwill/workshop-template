@@ -22,12 +22,15 @@ github_username: evanwill
 repo: "https://github.com/evanwill/workshop-template"
 
 # site urls
+# Optional if using GitHub Pages! If building manually, these must be set correctly.
+# When using github pages just leave these blank!
+#
 # add the url for the domain,
 # on gh-pages follow the pattern: https://username.github.io 
-url: https://evanwill.github.io
+url: 
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
-baseurl: /workshop-template
+baseurl: 
 
 # add google analytics if desired (optional)
 # if blank, it will be ignored
